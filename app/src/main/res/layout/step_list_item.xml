@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/list_item_padding"
+    android:paddingLeft="@dimen/list_item_padding"
+    android:paddingStart="@dimen/list_item_padding"
+    android:paddingTop="@dimen/list_item_padding">
+
+    <TextView
+        android:id="@+id/number_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/step_circle"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/name_text_view"
+        style="@style/StepItemTheme"
+        android:layout_marginLeft="@dimen/list_item_padding"
+        tools:text="Passo 1" />
+
+    <View
+        android:id="@+id/step_triangle"
+        android:layout_width="@dimen/step_triangle_size"
+        android:layout_height="@dimen/step_triangle_size"
+        android:layout_marginLeft="@dimen/list_item_padding"
+        android:layout_marginStart="@dimen/list_item_padding"
+        android:background="@drawable/step_triangle"
+        android:contentDescription="@string/step_triangle_description" />
+
+</LinearLayout>

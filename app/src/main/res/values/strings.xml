@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Baking App</string>
+
+    <!-- Chaves para o SharedPreferences -->
+    <string name="recipe_shared_preferences" translatable="false">recipe</string>
+    <string name="recipe_current_key" translatable="false">recipe_current</string>
+
+    <!-- Labels diversos do aplicativo -->
+    <string name="label_ingredients">Lista de ingredientes:</string>
+    <string name="label_servings">(Porções: <xliff:g id="servings">%d</xliff:g>)</string>
+    <string name="label_steps">Modo de preparo:</string>
+
+    <!-- Alguns content descriptions para elementos visuais -->
+    <string name="step_triangle_description">Clique para ver mais detalhes deste passo</string>
+    <string name="step_number_description">Passo <xliff:g id="step_number">%d</xliff:g></string>
+    <string name="step_progression_description">Passo <xliff:g id="step_number">%d</xliff:g> de
+        <xliff:g id="step_total">%d</xliff:g></string>
+    <string name="step_preview_description">Reproduzir vídeo do passo</string>
+    <string name="step_image_description">Imagem do passo <xliff:g id="step_number">%d</xliff:g></string>
+
+    <!-- Mensagens de erro a serem exibidas na tela principal e widget -->
+    <string name="no_recipes">Nenhuma receita encontrada.</string>
+    <string name="no_internet_connection">Não há conexão internet.</string>
+    <string name="widget_empty_recipes">Nenhuma receita selecionada.\nClique para escolher.</string>
+</resources>

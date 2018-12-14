@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_elevation">4dp</dimen>
+    <dimen name="app_bar_collapsed_height">200dp</dimen>
+
+    <!-- Altura, padding, elevação e curvatura de canto de cada cardview da lista de receitas -->
+    <dimen name="list_item_height">120dp</dimen>
+    <dimen name="list_item_padding">8dp</dimen>
+    <dimen name="list_item_elevation">2dp</dimen>
+    <dimen name="list_item_corner">8dp</dimen>
+
+    <dimen name="poster_grid_margin">8dp</dimen>
+    <dimen name="step_triangle_size">30dp</dimen>
+    <dimen name="preview_button_padding">50dp</dimen>
+
+    <dimen name="widget_title_margin">8dp</dimen>
+    <dimen name="widget_default_padding">8dp</dimen>
+</resources>
